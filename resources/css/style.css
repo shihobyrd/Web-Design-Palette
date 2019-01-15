@@ -1,0 +1,48 @@
+/* ------------------------------------ */
+            /* BASIC SETUP */
+/* ------------------------------------ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Noto Sans JP', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: OptimizeLegibility;
+        /* The browser emphasizes legibility over rendering speed and geometric precision. This enables kerning and optional ligatures. ブラウザーは速さや位置の正確さよりも、読みやすさを強調・カーニングを有効にし、合字は任意。*/
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+        /* 100% of background size */
+    background-position: center;
+    height: 100vh;
+        /* 100% of viewport */
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 200%;
+    
+}
